@@ -1,0 +1,109 @@
+/* Р С›РЎРѓР Р…Р С•Р Р†Р Р…РЎвЂ“ РЎРѓРЎвЂљР С‘Р В»РЎвЂ“ */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  color: #444;
+}
+
+a {
+  color: #007aff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Р РЃР В°Р С—Р С”Р В° РЎвЂљР В° Р Р…Р В°Р Р†РЎвЂ“Р С–Р В°РЎвЂ РЎвЂ“РЎРЏ */
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 1.5rem;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+/* Р вЂњР С•Р В»Р С•Р Р†Р Р…Р С‘Р в„– Р С”Р С•Р Р…РЎвЂљР ВµР Р…РЎвЂљ */
+main {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+/* Р С™Р Р…Р С•Р С—Р С”Р В° */
+button {
+  background-color: #007aff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #005fcc;
+}
+
+button.animated-button {
+  animation: pulse 1.5s infinite;
+}
+
+/* Р СџРЎвЂ“Р Т‘Р Р†Р В°Р В» РЎРѓР В°Р в„–РЎвЂљРЎС“ */
+footer {
+  background-color: #fff;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+/* Р С’Р Р…РЎвЂ“Р СР В°РЎвЂ РЎвЂ“РЎРЏ pulse */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+Р’В§
